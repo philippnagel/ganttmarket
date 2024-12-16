@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# TypeScript cache and output
+*.tsbuildinfo
+
+# IDE/Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# MacOS system files
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# Lint and formatting reports
+eslint-report.html
+biome-report.html
+
+# Parcel-bundler cache (if using Parcel)
+.cache/
+
+# Storybook files
+.storybook-out/
+
+# Static files
+public/static/
+
+# Miscellaneous
+*.swp
+*.bak
