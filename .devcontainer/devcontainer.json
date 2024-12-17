@@ -1,0 +1,14 @@
+{
+	"name": "React TypeScript Dev Container",
+	"dockerFile": "Dockerfile",
+	"context": "..",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"biomejs.biome-vscode"
+	],
+	"forwardPorts": [3000],
+	"postCreateCommand": "yarn install",
+	"remoteUser": "node"
+}
