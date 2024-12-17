@@ -8,10 +8,6 @@
 
 ## TODO
 
-* Integrate hardhat-viem: https://hardhat.org/hardhat-runner/docs/advanced/using-viem
-* Integrate Lens SDK with viem: https://dev-preview.lens.xyz/docs/network/getting-started/viem
-
-
 ## Dependencies
 
 We are using Family's Connect Kit to make authenticating simple.
