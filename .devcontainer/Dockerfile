@@ -1,11 +1,11 @@
-# Use the official Node.js LTS 22 image
-FROM node:22
+# Use the official DevContainer image
+FROM mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm
 
 # Create app directory
 WORKDIR /usr/src/app
 
-# Install Yarn globally
-RUN npm install -g yarn
+# Verify existing Yarn installation
+RUN yarn --version
 
 # Copy package.json and yarn.lock
 COPY package.json yarn.lock ./
